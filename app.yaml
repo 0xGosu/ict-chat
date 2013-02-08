@@ -1,0 +1,10 @@
+application: ict-chat
+version: 5
+runtime: python
+api_version: 1
+
+handlers:
+- url: .*
+  script: main.py
+builtins:
+- datastore_admin: on
